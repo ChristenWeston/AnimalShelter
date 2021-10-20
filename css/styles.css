@@ -5,24 +5,40 @@
   border: solid plum;
   border-width: 10px;
   margin-right: 10px;
+  box-sizing:border-box;
 }
 
 .center {
   text-align: center;
 }
 
-.purple {
-  color:mediumslateblue;
+.columnBox1 p {
+  font-size: smaller;
+  background-color:mistyrose;
+  font-style: italic;
 }
 
+.columnBox1 h1 {
+  background-color:slateblue;
+}
+.petName {
+  color:seagreen;
+  font-weight:bold;
 
-img {
-  float:none;
-  width: 100 px;
+}
+.columnBox1 img {
   height: auto;
+  border:5px solid rgb(0, 0, 0);
+  border: dashed;
+}
+
+img{
+  float:none;
+  width: 120px;
 }
 
 body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: larger;
+  background-color:whitesmoke;
 }
